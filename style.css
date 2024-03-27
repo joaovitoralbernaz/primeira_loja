@@ -22,16 +22,12 @@ header h1{
 
 aside{
     background-color: cornflowerblue;
+    width: 80px;
 }
 
-.caixa:hover{
-    background-color: blue;
-    transition: 0.5s;
-    grid-area: secundario;
-}
 
 main{
-    background-color: darkgray;
+    background-color: rgba(255, 255, 255, 0.836);
     grid-area: principal;
 }
 
@@ -39,6 +35,10 @@ footer{
     background-color: rgb(0, 0, 255);
     grid-area: footer;
     height: 100px;
+}
+
+body{
+    background-color: black;
 }
 
 body{
@@ -64,8 +64,7 @@ body{
     }
 }
  .elementomae{
-    height: 500px;
-    border: 2px black solid;
+   
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -74,19 +73,36 @@ body{
  }
 
 .caixa{
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height:450px ;
     border-radius: 20px;
-    background-color: rgb(0, 0, 255);
-    border-color: 10px white
+    background-color: rgba(255, 255, 255, 0.322);
+    border-color: 10px white;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: 20px;
+    display: flex;
+
+}
+button{
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    width: 120px;
+    height: 50px;
+    color: white;
+    margin-top: -10px;
+}
+.caixa img{
+    width: 280px;
+    border-radius: 20px;
+    margin: 10px;
 }
 
 .caixa:hover{
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.137);
     transition: 0.5s;
     transition-delay: 5ms;
-    width: 170px;
-    height: 170px;
 }
 
 nav li a{
@@ -113,6 +129,4 @@ nav li a:hover{
 
 div{
     text-align: center;
-    text-aling:
-   
 }
