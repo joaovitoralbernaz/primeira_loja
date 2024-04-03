@@ -144,7 +144,13 @@ div{
     
 }
 
+div a{
+    color: white;
+    text-decoration: none;
+}
+
 img{
     width: 598px ;
     height: 743px ;
 }
+
