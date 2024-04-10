@@ -21,7 +21,7 @@ main{
     grid-area: principal;
 }
 footer{
-    background-color: rgb(0, 0, 255);
+    background-color: rgb(0, 0, 61);
     grid-area: footer;
     height: 150px;
     text-align: center;
@@ -100,19 +100,22 @@ button{
     transition: 0.5s;
     transition-delay: 5ms;
 }  
-.nav_um li a{
+header nav li a{
     text-decoration-line: none;
     color: white;
     top: 10px;
     position:relative;
-    
+    top: 60px;
+    left:850px;
+    margin-left: 15px;   
 }
-.nav_um li{
+header nav li{
     display: inline;
     font-size: 20px;
     top: 10px;
+    right: 500px;
 }
-.nav_dois ul li a{
+aside nav li a{
     position: relative;
     margin: 20px;
     text-decoration-line: none;
