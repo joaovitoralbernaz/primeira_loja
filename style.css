@@ -106,8 +106,9 @@ header nav li a{
     top: 10px;
     position:relative;
     top: 60px;
-    left:850px;
-    margin-left: 15px;   
+    left:auto;
+    margin-left: 15px;
+    transition: 0.2s;   
 }
 header nav li{
     display: inline;
@@ -115,18 +116,22 @@ header nav li{
     top: 10px;
     right: 500px;
 }
+aside nav ul li{
+    display: block;
+    margin-right: 25px;
+    transition: 0.2s;
+}
 aside nav li a{
     position: relative;
-    margin: 20px;
     text-decoration-line: none;
     color:white;
-    font-size: 20pxpx;
+    font-size: 20px;
     
 }
 nav li a:hover{
-    background-color: black;
+    background-color: #7e7effcc;
     border-radius: 5px;
-    transition: 5ms;
+
 
 
 }
