@@ -1,21 +1,26 @@
+/* modifiquei tod a fonte do site*/
 *{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+/*modifiquei o header*/
 header{
     background-color: blue;
     grid-area: header;
     position: relative;
 }
+/* modifiquei o texto do header*/
 header h1{
     right: 45%;
     position: absolute;
     color: rgb(255, 255, 255);
     background-color: blue;
 }
+/* modifiquei o main*/
 main{
     background-color: rgba(255, 255, 255, 0.836);
     grid-area: principal;
 }
+/* modifiquei o footer*/
 footer{
     background-color: rgb(0, 0, 61);
     grid-area: footer;
@@ -23,6 +28,7 @@ footer{
     color: white;
     
 }
+/* modifiquei o body, e reponsividade */
 body{
     background-color: rgb(255, 255, 255);
     margin: 0%;
@@ -35,6 +41,7 @@ body{
     grid-template-columns:auto auto auto;
     grid-template-rows:100px auto auto;
 }
+/* responsividade */
 @media only screen and (max-width: 1000px) {
     body{
         grid-template-areas: 
@@ -45,17 +52,20 @@ body{
         grid-template-rows: 100px auto auto;
     }
 }
-
+/* modificação do link de navegaçaõ*/
 nav ul li{
     display: inline;
     margin: 10px;
 
 }
+/* link de navegação do header*/
 header nav li a{
+
     text-decoration: none;
     color: white;
     font-size: 20px;
 }
+/* transição do link de navegação*/
 header nav li a:hover{
     background-color: rgba(103, 103, 247, 0.747);
     border-radius: 5px;
@@ -63,6 +73,7 @@ header nav li a:hover{
 
 
 }
+/* tornando elemnetomae responsivo*/
 .elementomae{
     display: flex;
     justify-content: space-around;
@@ -70,7 +81,7 @@ header nav li a:hover{
     align-items: center;
     flex-direction: row;
 }
-
+/* modificação do card*/
 .card{
    
     width: 400px;
@@ -84,6 +95,7 @@ header nav li a:hover{
     display: flex;
     border: 0.1px rgba(0, 0, 0, 0.26) solid;
 }
+/* descrição do produto*/
 .sobre{
     justify-content: center;
     width: 400px;
@@ -94,6 +106,7 @@ header nav li a:hover{
     flex-direction: column;
     display: flex;
 }
+/* transição so card*/
 .card:hover{
     background-color: rgba(69, 71, 94, 0.158);
     transition: 0.5s;
@@ -105,7 +118,7 @@ header nav li a:hover{
     border-radius: 20px;
     margin: 10px;
 }
-
+/* link de compra presente na descrição*/
 .sobre a{
 
     background-color: blue;
@@ -119,7 +132,7 @@ header nav li a:hover{
     padding: 10px;
     transition: 0.2s;
 }
-
+/* transição do botão*/
 .sobre a:hover{
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.685);
 }
