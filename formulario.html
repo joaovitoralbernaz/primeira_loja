@@ -1,31 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="login.css">
     <meta charset="UTF-8">
-    <title>Registro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <section class="elementopai">
-        <div class="login">
-            <label for="nome">Nome</label>
-            <input type="text" name="nome_aluno" id="nome" placeholder="seu nome">
-            <label for="email">email</label>
-            <input type="email" name="email_aluno" id="email" placeholder="E-mail">
-            <label for="numero">Número</label>
-            <input type="text" name="numero_aluno" id="numero" placeholder="ex: (45) 99918-5657" >
-            <label for="data">Data nasc.</label>
-            <input type="date" name="data_aluno" id="data">
-            <label for="cpf">CPF</label>
-            <input type="text" name="cpf_aluno" id="cpf">
-            <select name="genero_aluno" id="genero">
-                <option selected disabled value="">Selecione</option>
-                <option value="">Masculino</option>
-                <option value="">Femenino</option>
-                <option value=""></option>
-            </select>
-            <a href="index.html">Entrar</a>
-        </div>
-    </section>    
+    <div>
+        <h1>Cadastre-se</h1>
+        <input type="text" id="name" placeholder="Nome" >
+        <br><br>
+        <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome">
+        <br><br>
+        <input type="email" name="email" id="email" placeholder="Email">
+        <br><br>
+        <input type="password" name="password" id="password" placeholder="Senha">
+        <br><br>
+        <button type="submit"><a href="index.html">concluido</a></button>
+     </div>     
 </body>
 </html>
