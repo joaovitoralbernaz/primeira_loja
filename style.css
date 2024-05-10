@@ -47,15 +47,13 @@ body{
     grid-template-rows:100px auto auto;
 }
 /*responsividade*/
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 400px) {
     body{
         grid-template-areas: 
         "header"
-        "secundario"
         "principal"
         "footer";
         grid-template-columns: auto;
-        grid-template-rows: 100px auto auto auto;
     }
     header h1{
         right: 45%;
@@ -63,6 +61,9 @@ body{
         position: absolute;
         color: rgb(255, 255, 255);
         
+    }
+    aside{
+        display: none;
     }
 }
 /* modifiquei o elementomae para torna-lo responsivo*/
@@ -113,40 +114,19 @@ button{
     transition-delay: 5ms;
 }
 /* modificação dos links de navegação*/  
-header nav li a{
+aside nav li{
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    margin: 10px;
+}
+nav li a{
     text-decoration-line: none;
     color: white;
-    top: 10px;
-    position:relative;
-    top: 60px;
-    left:auto;
-    margin-left: 15px;
-    transition: 0.2s;   
-}
-/* modificação dos links de navegação*/ 
-header nav li{
-    display: inline;
-    font-size: 20px;
-    top: 10px;
-    right: 500px;
-}
-/* modificação dos links de navegação*/ 
-aside nav ul li{
-    display: block;
-    margin-right: 25px;
-    transition: 0.2s;
-}
-/* modificação dos links de navegação*/ 
-aside nav li a{
-    position: relative;
-    text-decoration-line: none;
-    color:white;
-    font-size: 20px;
-    
 }
 /* transição dos links de pesquisa*/
 nav li a:hover{
-    background-color: #7e7effcc;
+    background-color: #0505ffcc;
     border-radius: 5px;
 }
 /* link do produto*/
