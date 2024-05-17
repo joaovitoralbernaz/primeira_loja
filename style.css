@@ -138,3 +138,43 @@ div a{
 div{
     text-align: center;
 }
+.nav_mobile ul{
+    list-style: none;
+    border: rgb(255, 174, 0) solid 2px;
+    position: relative;
+    top: 50px;
+       
+}
+
+.nav_mobile img{
+    width: 40px;
+
+}
+
+.nav_mobile input[type="checkbox"]{
+    display: none;
+}
+
+.nav_mobile nav{
+    background-color: rgb(88, 88, 88);
+    border: red solid;
+    width: 350px;
+    height: 100vh;
+    position: absolute;
+    left: -370px;
+    transition: all 0.3s;
+}
+.nav_mobile a{
+    padding: 10px 10px;
+    border: green solid;
+    display: block;
+    text-decoration: none;
+}
+
+.nav_mobile label{
+    position: absolute;
+    z-index: 1;
+}
+.nav_mobile input[type="checkbox"]:checked ~ nav{
+    transform: translateX(350px);
+}
