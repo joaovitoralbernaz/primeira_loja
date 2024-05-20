@@ -42,7 +42,7 @@ body{
     grid-template-rows:100px auto auto;
 }
 /* responsividade */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 500px) {
     body{
         grid-template-areas: 
         "header"
@@ -54,9 +54,9 @@ body{
 }
 /* modificação do link de navegaçaõ*/
 nav ul li{
+    list-style: none;
     display: inline;
     margin: 10px;
-
 }
 /* link de navegação do header*/
 header nav li a{
@@ -84,7 +84,7 @@ header nav li a:hover{
 /* modificação do card*/
 .card{
    
-    width: 400px;
+    width: 550px;
     height:450px ;
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.322);
@@ -112,8 +112,8 @@ header nav li a:hover{
     transition: 0.5s;
     transition-delay: 5ms;
 }
-.card img{
-    width: 300px;
+.card img{  
+    width: 500px;
     height: 450px ;
     border-radius: 20px;
     margin: 10px;

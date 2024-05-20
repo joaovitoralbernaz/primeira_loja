@@ -13,7 +13,6 @@ header h1{
     right: 45%;
     position: absolute;
     color: rgb(255, 255, 255);
-    background-color: blue;
 }
 /*mudei a cor do aside*/
 aside{
@@ -58,7 +57,7 @@ body{
     header h1{
         right: 45%;
         top: 0px;
-        position: absolute;
+        position: relative;
         color: rgb(255, 255, 255);
         
     }
@@ -120,6 +119,10 @@ aside nav li{
     padding: 5px;
     margin: 10px;
 }
+nav ul li{
+    list-style: none;
+    font-size: 20px;
+}
 nav li a{
     text-decoration-line: none;
     color: white;
@@ -138,17 +141,13 @@ div a{
 div{
     text-align: center;
 }
+
 .nav_mobile ul{
     list-style: none;
-    border: rgb(255, 174, 0) solid 2px;
-    position: relative;
+    /*border: rgb(255, 174, 0) solid 2px;*/
+    position: absolute;
     top: 50px;
-       
-}
-
-.nav_mobile img{
-    width: 40px;
-
+    width: 290px;
 }
 
 .nav_mobile input[type="checkbox"]{
@@ -156,17 +155,17 @@ div{
 }
 
 .nav_mobile nav{
-    background-color: rgb(88, 88, 88);
-    border: red solid;
+    background-color: rgba(13, 12, 17, 0.884);
+    /*border: red solid;*/
     width: 350px;
-    height: 100vh;
+    height: 1080px;
     position: absolute;
     left: -370px;
     transition: all 0.3s;
 }
 .nav_mobile a{
     padding: 10px 10px;
-    border: green solid;
+    /*border: green solid;*/
     display: block;
     text-decoration: none;
 }
@@ -174,7 +173,18 @@ div{
 .nav_mobile label{
     position: absolute;
     z-index: 1;
+    left: 50px;
+    top: 35px;
 }
 .nav_mobile input[type="checkbox"]:checked ~ nav{
     transform: translateX(350px);
+}
+
+.nav_mobile span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px;
+  /*left: 10px;*/
 }

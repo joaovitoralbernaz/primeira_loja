@@ -9,14 +9,15 @@
 <body>
     <div>
         <h1>Cadastre-se</h1>
-        <input type="text" id="name" placeholder="Nome" >
-        <br><br>
-        <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome">
-        <br><br>
-        <input type="email" name="email" id="email" placeholder="Email">
-        <br><br>
-        <input type="password" name="password" id="password" placeholder="Senha">
-        <br><br>
+        <input type="text" id="name" placeholder="Nome" required >
+        <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" required>
+        <input type="email" name="email" id="email" placeholder="Email" required>
+        <input type="text" name="genero" id="genero" placeholder="Gênero">
+        <label for="data">Nascimento</label>
+        <input type="date" name="data" id="data">
+        <input type="number" name="numero" id="numero" placeholder="Seu CPF">
+        <input type="text" name="endereco" id="endereco" placeholder="Endereço">
+        <input type="password" name="password" id="password" placeholder="Senha" required>
         <button type="submit"><a href="index.html">concluido</a></button>
      </div>     
 </body>
