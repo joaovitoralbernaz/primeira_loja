@@ -36,9 +36,7 @@ button{
     padding: 15px;
     border-radius: 10px;
     border: none;
-    font-style: normal;
-    font-size: medium;
-    font-optical-sizing: auto;
+    font-size: 15px;
     display: block;
 
 }
