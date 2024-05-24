@@ -141,7 +141,7 @@ div a{
 div{
     text-align: center;
 }
-
+/* modificação do ul do nav mobile */
 .nav_mobile ul{
     list-style: none;
     /*border: rgb(255, 174, 0) solid 2px;*/
@@ -149,11 +149,11 @@ div{
     top: 50px;
     width: 290px;
 }
-
+/* torna invisivel o quadradinho presente no checkbox */
 .nav_mobile input[type="checkbox"]{
     display: none;
 }
-
+/* define qual sera a proporção do nav mobile  */
 .nav_mobile nav{
     background-color: rgba(13, 12, 17, 0.884);
     /*border: red solid;*/
@@ -163,23 +163,26 @@ div{
     left: -370px;
     transition: all 0.3s;
 }
+/* link do nav mobile */
 .nav_mobile a{
     padding: 10px 10px;
     /*border: green solid;*/
     display: block;
     text-decoration: none;
 }
-
+/* modificação do labeç do nav */
 .nav_mobile label{
     position: absolute;
+    /* este comando define a ordem de empilhamento de elemntos sobreposto em uma pagina */
     z-index: 1;
     left: 50px;
     top: 35px;
 }
+/* quando checkbox marcado o elemento nav se move ao logo do eixo X (na horizontalmente) */
 .nav_mobile input[type="checkbox"]:checked ~ nav{
     transform: translateX(350px);
 }
-
+/* modificação das tres linhas usadas para abrir o menu lateral */
 .nav_mobile span {
   display: block;
   width: 25px;

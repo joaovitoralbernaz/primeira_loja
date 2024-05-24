@@ -106,12 +106,6 @@ header nav li a:hover{
     flex-direction: column;
     display: flex;
 }
-/* transição so card*/
-.card:hover{
-    background-color: rgba(69, 71, 94, 0.158);
-    transition: 0.5s;
-    transition-delay: 5ms;
-}
 .card img{  
     width: 500px;
     height: 450px ;
