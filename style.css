@@ -13,10 +13,14 @@ header h1{
     right: 45%;
     position: absolute;
     color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /*mudei a cor do aside*/
 aside{
     background-color: cornflowerblue;
+    border-radius: 5px;
+    box-shadow: rgb(165, 165, 165) 1px -1px 1px 1px;
 }
 /*modifiquei o main*/
 main{
@@ -55,10 +59,7 @@ body{
         grid-template-columns: auto;
     }
     header h1{
-        right: 45%;
-        top: 0px;
-        position: relative;
-        color: rgb(255, 255, 255);
+        display: none;
         
     }
     aside{
@@ -79,7 +80,7 @@ body{
     width: 300px;
     height:450px ;
     border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.322);
+    box-shadow: rgba(129, 129, 129, 0.37) 1px 1px 2px 2px;
     border-color: 10px white;
     align-items: center;
     flex-direction: column;
@@ -108,8 +109,8 @@ button{
 }
 /* transição do card*/
 .caixa:hover{
-    background-color: rgba(69, 71, 94, 0.158);
-    transition: 0.5s;
+    box-shadow: rgba(129, 129, 129, 0.37)   3px 3px 2px 2px;
+    transition: 0.1ms;
     transition-delay: 5ms;
 }
 /* modificação dos links de navegação*/  
@@ -120,17 +121,19 @@ aside nav li{
     margin: 10px;
 }
 nav ul li{
+    
     list-style: none;
     font-size: 20px;
 }
 nav li a{
+    padding: 5px;
     text-decoration-line: none;
     color: white;
 }
 /* transição dos links de pesquisa*/
 nav li a:hover{
     background-color: #0505ffcc;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 /* link do produto*/
 div a{
@@ -185,9 +188,17 @@ div{
 /* modificação das tres linhas usadas para abrir o menu lateral */
 .nav_mobile span {
   display: block;
-  width: 25px;
-  height: 3px;
+  width: 30px;
+  height: 5px;
+  border-radius: 10px;
   background-color: #fff;
   margin: 5px;
   /*left: 10px;*/
+}
+
+/*logo*/
+.logo{
+    position: absolute;
+    width: 100px; 
+    right: 45px;
 }
